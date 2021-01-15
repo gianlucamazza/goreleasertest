@@ -1,0 +1,9 @@
+[prune]
+go-tests = true
+unused-packages = true
+
+[metadata.heroku]
+root-package = "goreleasertest"
+go-version = "go1.15.0"
+install = ["./..."]
+ensure = true
